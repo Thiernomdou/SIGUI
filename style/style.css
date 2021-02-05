@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Lora', serif;
 }
+
 /* header */
 #header {
     background-color: #6d095f;
@@ -31,6 +33,10 @@ body {
     border-bottom: 1px solid white;
 }
 #header .banner {
+    margin-top: 8%;
+    color: white;
+}
+#header .banner h1{
     margin: 80px 0 50px;
     font-weight: 600;
     font-size: 50px;
@@ -63,4 +69,13 @@ body {
 #header .col-md-6 {
     text-align: center;
 }
+
 /* fin header */
+
+/* section service */
+#service .row {
+    background-color: #6d095f;
+    display: flex;
+    justify-content: space-between;
+}
+/* fin section sevice */
